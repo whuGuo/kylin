@@ -127,7 +127,7 @@ public class MultiThreadsResultCollector extends ResultCollector {
 
             @Override
             public void remove() {
-                throw new UnsupportedOperationException("not support");
+                throw new UnsupportedOperationException("Unsupported operation");
             }
         };
     }

@@ -67,7 +67,7 @@ public class SingleThreadResultCollector extends ResultCollector {
 
             @Override
             public void remove() {
-                throw new UnsupportedOperationException("not support remove");
+                throw new UnsupportedOperationException("Remove operation is not supported");
             }
         };
     }

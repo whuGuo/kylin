@@ -91,7 +91,7 @@ public class RecordsAggregator implements Iterable<Record>{
 
             @Override
             public void remove() {
-                throw new UnsupportedOperationException("unSupportOperation!");
+                throw new UnsupportedOperationException("Unsupported operation");
             }
         };
     }

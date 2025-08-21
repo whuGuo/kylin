@@ -119,7 +119,7 @@ public class RecordsSerializer {
 
             @Override
             public void remove() {
-                throw new UnsupportedOperationException("UnSupport Operation");
+                throw new UnsupportedOperationException("Unsupported operation");
             }
         };
     }

@@ -38,7 +38,7 @@ public class FSInputGeneralColumnDataReader implements ColumnDataReader {
 
     @Override
     public byte[] read(int index) {
-        throw new UnsupportedOperationException("not support to read row operation");
+        throw new UnsupportedOperationException("Reading a single row is not supported");
     }
 
     @Override
@@ -66,7 +66,7 @@ public class FSInputGeneralColumnDataReader implements ColumnDataReader {
 
             @Override
             public void remove() {
-                throw new UnsupportedOperationException("unSupport operation");
+                throw new UnsupportedOperationException("Unsupported operation");
             }
         };
     }

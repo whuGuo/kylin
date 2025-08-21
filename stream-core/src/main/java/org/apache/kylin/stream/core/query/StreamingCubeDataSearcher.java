@@ -161,7 +161,7 @@ public class StreamingCubeDataSearcher {
 
             @Override
             public void remove() {
-                throw new UnsupportedOperationException("not support");
+                throw new UnsupportedOperationException("Unsupported operation");
             }
         };
     }
