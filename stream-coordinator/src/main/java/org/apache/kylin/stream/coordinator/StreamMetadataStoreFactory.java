@@ -39,7 +39,7 @@ public class StreamMetadataStoreFactory {
         case STORE_TYPE_MOCK:
             return getMockStreamMetaDataStore();
         default:
-            throw new IllegalArgumentException("unSupport streaming metadata store type:" + storeType);
+            throw new IllegalArgumentException("Unsupported streaming metadata store type: " + storeType);
         }
     }
 

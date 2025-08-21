@@ -599,7 +599,7 @@ public class FragmentFilesMerger {
 
         @Override
         public void remove() {
-            throw new UnsupportedOperationException("unSupport operation");
+            throw new UnsupportedOperationException("Unsupported operation");
         }
 
         private void doAggregate(DecodedRecord record) {

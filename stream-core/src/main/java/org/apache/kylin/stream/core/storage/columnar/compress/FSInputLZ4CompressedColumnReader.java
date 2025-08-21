@@ -62,7 +62,7 @@ public class FSInputLZ4CompressedColumnReader implements ColumnDataReader {
 
     @Override
     public byte[] read(int rowNum) {
-        throw new UnsupportedOperationException("not support to read row operation");
+        throw new UnsupportedOperationException("Reading a single row is not supported");
     }
 
     @Override
@@ -101,7 +101,7 @@ public class FSInputLZ4CompressedColumnReader implements ColumnDataReader {
 
         @Override
         public void remove() {
-            throw new UnsupportedOperationException("not supported");
+            throw new UnsupportedOperationException("Unsupported operation");
         }
 
         private void loadNextBuffer() throws IOException {

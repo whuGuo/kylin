@@ -97,7 +97,7 @@ public class RocksDBLookupTable implements ILookupTable {
 
             @Override
             public void remove() {
-                throw new UnsupportedOperationException("not support operation");
+                throw new UnsupportedOperationException("Unsupported operation");
             }
         };
     }

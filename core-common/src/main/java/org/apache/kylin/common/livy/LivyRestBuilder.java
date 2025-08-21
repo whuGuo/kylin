@@ -66,7 +66,7 @@ public class LivyRestBuilder {
                 postJson.put("className", "org.apache.kylin.common.util.SparkEntry");
                 postJson.put("args", args);
             } else {
-                throw new IllegalArgumentException("unSupport livy type.");
+                throw new IllegalArgumentException("Unsupported Livy type");
             }
 
             //deal conf of key

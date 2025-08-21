@@ -115,7 +115,7 @@ public class LZ4CompressedColumnReader implements ColumnDataReader {
 
         @Override
         public void remove() {
-            throw new UnsupportedOperationException("not supported");
+            throw new UnsupportedOperationException("Unsupported operation");
         }
 
         private void loadNextBuffer() {

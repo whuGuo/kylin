@@ -147,7 +147,7 @@ public class FragmentCuboidReader implements Iterable<RawRecord> {
 
             @Override
             public void remove() {
-                throw new UnsupportedOperationException("unSupported");
+                throw new UnsupportedOperationException("Unsupported operation");
             }
         };
     }
